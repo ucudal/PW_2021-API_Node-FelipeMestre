@@ -60,7 +60,7 @@ app.post('/enviar-formulario', jsonParser, function(req, res) {
 });
 
 app.post("/*", jsonParser, function(req, res) {
-  res.status(404).send("404 Error not found");
+  res.status(404).send("404 - No fue encontrado");
 });
 
 
