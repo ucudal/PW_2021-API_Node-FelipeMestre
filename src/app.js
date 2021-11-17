@@ -17,18 +17,25 @@ app.use(express.urlencoded({
 var experiencia = {
   "experiencia-laboral": [
     {
-      "company": "Inzol",
-      "position": "Full Stack Developer",
-      "description": "Mi rol consistio en ser desarrollador junior haciendo frontend con angular, backend con ASP.net y con dos bases de datos en sql server. El proyecto fue un sistema de gestion de viajes entre cosechas de madera, acopios intermedios y Montevideo. \n Desarrolle funcionalidades a lo largo de sprints de dos semanas durante cuatro meses. Entre estas funcionalidades estan un sistema de notificaciones, la integracion este este sistema con otro mediante requests http y un modulo de gestion documentacion que verifica la correctitud de la misma para los viajes a realizarse.\n tambien participé en el desarrollo de la página web de la empresa utilizando bootstrap, javascript y css para implementar el diseño hecho por una diseñadora.",
-      "initialDate": new Date("2021/06/21"),
-      "finishedDate": null
+      "empresa": "Inzol",
+      "puesto": "Full Stack Developer",
+      "descripcion": "Mi rol consistio en ser desarrollador junior haciendo frontend con angular, backend con ASP.net y con dos bases de datos en sql server. El proyecto fue un sistema de gestion de viajes entre cosechas de madera, acopios intermedios y Montevideo. \n Desarrolle funcionalidades a lo largo de sprints de dos semanas durante cuatro meses. Entre estas funcionalidades estan un sistema de notificaciones, la integracion este este sistema con otro mediante requests http y un modulo de gestion documentacion que verifica la correctitud de la misma para los viajes a realizarse.\n tambien participé en el desarrollo de la página web de la empresa utilizando bootstrap, javascript y css para implementar el diseño hecho por una diseñadora.",
+      "fechaInicio": new Date("2021/06/21"),
+      "fechaFin": null
     },
     {
-      "company": "Inzol",
-      "position": "Full Stack Developer",
-      "description": "Mi rol consistio en ser desarrollador junior haciendo frontend con angular, backend con ASP.net y con dos bases de datos en sql server. El proyecto fue un sistema de gestion de viajes entre cosechas de madera, acopios intermedios y Montevideo. \n Desarrolle funcionalidades a lo largo de sprints de dos semanas durante cuatro meses. Entre estas funcionalidades estan un sistema de notificaciones, la integracion este este sistema con otro mediante requests http y un modulo de gestion documentacion que verifica la correctitud de la misma para los viajes a realizarse.",
-      "initialDate": new Date("2021/06/21"),
-      "finishedDate": new Date("2022/06/21")
+      "empresa": "Inzol",
+      "puesto": "Full Stack Developer",
+      "descripcion": "Mi trabajo es inzólito, tengo que inzolarme",
+      "fechaInicio": new Date("2021/06/21"),
+      "fechaFin": new Date("2022/06/21")
+    }, 
+    {
+      "empresa": "Inzol",
+      "puesto": "Full Stack Developer",
+      "descripcion": "Todo esto es una mentira barbara, todavia no deje de trabajar en inzol",
+      "fechaInicio": new Date("2021/06/21"),
+      "fechaFin": new Date("2022/06/21")
     }
   ]
 };
